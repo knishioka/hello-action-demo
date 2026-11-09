@@ -5,3 +5,6 @@ runs:
   steps:
     - shell: bash
       run: echo "hello from hello-action-demo"
+    # The "changed" code in the video. It prints a fake value only.
+    - shell: bash
+      run: echo "DEMO_TOKEN=not-a-real-secret"
