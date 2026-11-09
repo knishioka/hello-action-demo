@@ -1,0 +1,7 @@
+name: hello-action-demo
+description: A throwaway action for a video about moved tags. It only prints a greeting.
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "hello from hello-action-demo"
