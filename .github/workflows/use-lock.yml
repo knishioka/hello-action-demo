@@ -1,0 +1,7 @@
+name: use-lock
+on: workflow_dispatch
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: knishioka/hello-action-demo@v1
